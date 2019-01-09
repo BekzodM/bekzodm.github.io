@@ -1,0 +1,377 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#ueh {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #2a2a2a;
+    display: block;
+    width: 100%;
+    margin-top: -14px;
+    padding-top: 1px;
+}
+
+.uenav li {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+}
+
+.uenav a {
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    padding-bottom: 15%;
+
+}
+
+.uenav li a:hover {
+    border-bottom: 5px solid rgb(1, 108, 247);
+    color: white;
+}
+
+.webtab a {
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+
+.uenav li #titleName {
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding-right: 10px;
+    margin-left: -30px;
+}
+
+.rightside {
+    float: right;
+    margin-top: -55px;
+    margin-right: 20px;
+}
+
+.rightside img {
+    width: 30px;
+}
+
+.slideImg {
+    display: none;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    margin-top: -1%;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+    cursor:pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;  
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.texts {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+footer {
+    padding: 1em 1.5em;
+    font-size: 16px;
+    background-color: #2a2a2a;
+    display: block;
+}
+
+.footerSocial {
+    
+    float: left;
+    box-sizing: border-box;
+}
+
+.social {
+    margin: 1em 0 0;
+    padding: 0;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.footerTitle {
+    color: #ccc;
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 1.5em;
+    margin-bottom: 3px;
+    box-sizing: border-box;
+}
+
+.footerRes {
+    margin-top: 60px;
+    margin-bottom: 0;
+    margin-left: 0px;
+    margin-right: -15px;
+    box-sizing: border-box;
+    display: block;
+    background-color: #2a2a2a;
+}
+
+.footerRes a {
+    outline-color: transparent;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: #e7e7e7;   
+}
+
+.footerRes a:hover {
+    color: rgb(1, 108, 247);
+}
+
+.footerContentsFirst {
+    float: left;
+    list-style: none;
+    padding: 0 2.6em .5em 0;
+    box-sizing: border-box;
+    
+}
+
+.footerContentsSecond {
+    float: left;
+    list-style: none;
+    padding: 0 2.6em .5em 0;
+    box-sizing: border-box;
+    
+}
+
+hr {
+    margin-top: 70px;
+}
+
+.copy {
+    width: 50%;
+}
+
+.terms a {
+    padding-right: 30px;
+    display: inline;
+    text-decoration: none;
+    color: white;
+}
+
+.terms a:hover {
+    color: rgb(1, 108, 247);
+}
+
+.mainContent h3 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin: 2% 4%;
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.mainContent p {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.mainContent a {
+    color: black;
+}
+
+.mainContent a:hover {
+    color: gray;
+}
+
+.mainContent .carimg {
+    width: 100%;
+    margin-top: -1%;
+    padding-top: 0;
+    padding-bottom: 2%;
+}
+
+.mainContent .storeimg {
+    width: 50%;
+    height: 400px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: -1%;
+    padding-top: 0;
+    padding-bottom: 2%;
+}
+  
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+  
+input[type=submit] {
+    background-color: #2a2a2a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: rgb(1, 108, 247);
+}
+  
+.contactdiv {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.newsimg {
+    width: 100%;
+    height: 600px;
+    margin-top: -1%;
+    padding-top: 0;
+    padding-bottom: 2%;
+}
+
+.loginform {
+    border: 3px solid #f1f1f1;
+}
+
+.loginform input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+  
+.loginform button {
+    background-color: #2a2a2a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+  
+.loginform button:hover {
+    background-color: rgb(1, 108, 247);
+}
+  
+.loginform .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+  
+
+.loginform .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+  
+.loginform img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+  
+.loginform .container {
+    padding: 16px;
+}
+  
+.loginform span.psw {
+    float: right;
+    padding-top: 16px;
+}
+  
+@media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+}
+
+.loginform a {
+    text-decoration: none;
+    color: black;
+}
