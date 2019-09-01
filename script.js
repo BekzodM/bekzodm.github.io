@@ -30,5 +30,5 @@ showSlides();
 function showSlides() {
     slideIndex++;
     showSlidesByClick(slideIndex);
-    setTimeout(showSlides, 4000);
+    setTimeout(showSlides, 6000);
 }
