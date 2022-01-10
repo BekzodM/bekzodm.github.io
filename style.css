@@ -1,10 +1,9 @@
-
-body {
-    width: 100%;
-    height: 100%;
+html, body{
     margin: 0;
     padding: 0;
-    
+    border: 0;
+    outline: 0;
+    font-size: 100%;
 }
 
 #ueh {
@@ -12,50 +11,46 @@ body {
     background-color: #2a2a2a;
     display: block;
     width: 100%;
-    margin-top: -14px;
-    padding-top: 1px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 .uenav li {
     text-decoration: none;
     display: inline-block;
     position: relative;
-    font-size: 12px;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 18px 20px;
 }
 
 .uenav a {
     text-decoration: none;
     color: rgb(179, 179, 179);
-    padding-bottom: 10px;
-
+    padding: 13px 10px;
 }
 
-.uenav li a:hover {
+.bborder a:hover {
     border-bottom: 5px solid rgb(1, 108, 247);
     color: white;
 }
 
-.webtab a {
-    padding-right: 12px;
-    padding-left: 12px;
+#titleName a:hover {
+    color: white;
 }
 
-
-.uenav li #titleName {
-    font-family: Verdana, sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    padding-right: 10px;
-    margin-left: -30px;
-}
-
-.rightside {
+#rightside {
     float: right;
-    margin-top: -55px;
-    margin-right: 20px;
+    padding: 0;
+    padding-top: 12px;
+    padding-right: 20px;
 }
 
-.rightside img {
+.webtab img {
     width: 30px;
 }
 
@@ -67,16 +62,14 @@ body {
     max-width: 100%;
     position: relative;
     margin: auto;
-    margin-top: -1%;
 }
 
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 46%;
     width: auto;
     padding: 16px;
-    margin-top: -22px;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -117,12 +110,12 @@ body {
 }
   
 @-webkit-keyframes fade {
-    from {opacity: .4}
+    from {opacity: .8}
     to {opacity: 1}
 }
   
 @keyframes fade {
-    from {opacity: .4}
+    from {opacity: .8}
     to {opacity: 1}
 }
 
@@ -253,7 +246,6 @@ hr {
 
 .mainContent .carimg {
     width: 100%;
-    margin-top: -1%;
     padding-top: 0;
     padding-bottom: 2%;
 }
@@ -263,7 +255,6 @@ hr {
     height: 400px;
     margin-left: 25%;
     margin-right: 25%;
-    margin-top: -1%;
     padding-top: 0;
     padding-bottom: 2%;
 }
@@ -301,7 +292,6 @@ input[type=submit]:hover {
 .newsimg {
     width: 100%;
     height: 600px;
-    margin-top: -1%;
     padding-top: 0;
     padding-bottom: 2%;
 }
