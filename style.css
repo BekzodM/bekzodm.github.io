@@ -124,7 +124,6 @@ ul {
     padding-bottom: 20px;
     padding-left: 100px;
     padding-right: 100px;
-
 }
 
 footer {
@@ -221,6 +220,12 @@ hr {
     color: rgb(1, 108, 247);
 }
 
+.mainContent {
+    padding-bottom: 10px;
+}
+
+/* CUBER PAGE */
+
 .mainContent h3 {
     margin: 2% 4%;
     font-weight: bolder;
@@ -228,12 +233,21 @@ hr {
 }
 
 .mainContent p {
-    font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 40px;
     margin-left: 100px;
     margin-right: 100px;
+}
+
+.mainContent ul, ol{
+    padding: 0 100px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.mainContent ul li{
+    list-style-type: none;
 }
 
 .mainContent a {
@@ -295,6 +309,8 @@ input[type=submit]:hover {
     padding-top: 0;
     padding-bottom: 2%;
 }
+
+/* Sign In */
 
 .loginform {
     border: 3px solid #f1f1f1;
@@ -362,4 +378,162 @@ input[type=submit]:hover {
 .loginform a {
     text-decoration: none;
     color: black;
+}
+
+/* Small Laptops & Large Tablets */
+
+@media (max-width: 1050px) {
+
+    .uenav li {
+        font-size: 12px;
+        padding: 14px 16px;
+    }
+    
+    .uenav a {
+        text-decoration: none;
+        color: rgb(179, 179, 179);
+        padding: 10px 7px;
+    }
+    
+    .bborder a:hover {
+        border-bottom: 3px solid rgb(1, 108, 247);
+        color: white;
+    }
+
+    .webtab img {
+        width: 25px;
+    }
+
+    .texts {
+        padding-top: 40px;
+        padding-bottom: 20px;
+        padding-left: 80px;
+        padding-right: 80px;
+    
+    }
+
+    .icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* CUBER PAGE */
+    .mainContent h3 {
+        font-size: 20px;
+    }
+    
+    .mainContent p{
+        font-size: 14px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    
+    .mainContent .carimg {
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 2%;
+    }
+
+    .mainContent ul, ol{
+        padding: 0 80px;
+        font-size: 14px;
+    }
+
+    /* NEWS PAGE */
+
+    .mainContent .newsimg {
+        width: 100%;
+        height: auto;
+    }
+
+    /* STORE PAGE */
+
+    .mainContent .storeimg {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        height: auto;
+    }
+
+}
+
+
+/* Large Phones & Tablets */
+
+@media (max-width:768px) {
+
+    .uenav li {
+        font-size: 10px;
+        padding: 10px 12px;
+    }
+    
+    .uenav a {
+        text-decoration: none;
+        color: rgb(179, 179, 179);
+        padding: 8px 5px;
+    }
+    
+    .bborder a:hover {
+        border-bottom: 3px solid rgb(1, 108, 247);
+        color: white;
+    }
+
+    .webtab img {
+        width: 15px;
+    }
+
+    #rightside {
+        padding-top: 10px;
+        padding-right: 16px;
+    }
+
+    .texts {
+        padding: 10px 20px;
+    }
+
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    .footerTitle {
+        font-size: 14px;
+        padding-top: 0;
+    }
+    
+    .footerRes {
+        margin-top: 50px;
+        margin-right: -10px;
+    }
+    
+    .copy {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    /* CUBER PAGE */
+    .mainContent h3 {
+        font-size: 16px;
+    }
+    
+    .mainContent p{
+        font-size: 12px;
+        margin-top: 12px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .mainContent ul, ol {
+        padding: 0 20px;
+        font-size: 12px;
+    }
 }
